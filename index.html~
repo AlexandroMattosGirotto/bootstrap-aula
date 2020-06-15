@@ -8,31 +8,95 @@
 	</head>
 	<body>
 		<header>
-		Titulo bootstrap	
+		Conhecendo bootstrap	
 		</header>
 		<nav class="navbar navbar-expand-lg navbar-light ">
 			<a class="navbar-brand" href="#"><img src="imagens/teste.jpg" width= 220>
 			</a>
-			<footer>atividade</footer>
 			<div class="collpase navbar-collapse">
 				<ul class="navbar-nav">
+				<li class="nav-item">
+						<a class="nav-link" href="#Pessoal">Pessoal</a>
+					</li>	
 					<li class="nav-item">
 						<a class="nav-link" href="#Faz_atividade">Faz atividade</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">teste1</a>
-					</li><li class="nav-item">
-						<a class="nav-link" href="#">teste2</a>
+						<a class="nav-link" href="#Desenvolve_atividade">Desenvolve atividade</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Conclui_atividade">Conclui a atividade</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#alunos">Alunos</a>
+					</li>					
 				</ul>
 			</div>
 		</nav>
+	<section id="Pessoal">
+	<div class="container-fluid Pessoal text-center margin">
+		<h2 class="margin">Pessoal</h2>	
+	<div class="container">
+		<div class ="row">
+			<div class="col-lg-4">
+				<img src="imagens/pessoal.jpg" width= 300>
+				<p>Buscando sempre</p>		
+			</div>
+			<div class="col-lg-4">
+				<img src="imagens/pessoal.jpg" width= 300>
+				<p>O melhor para você</p>		
+			</div>
+			<div class="col-lg-4">
+				<img src="imagens/aluno.jpg" width= 300 height=300>
+				<p>Estudante</p>		
+			</div>
+		</div>
+	</div>
+	</div>
+	</section>
 	<section id="Faz_atividade">
 		<div class="container-fluid Faz_atividade text-center margin">
-		<h4>Faz atividade</h4>
-		<img src="imagens/tarefa.jpg" class="rounded-circle" width= 200>
-		<h5>Atividades a serem propostas</h5>
+			<h4>Faz atividade</h4>
+			<img src="imagens/tarefa.jpg" class="rounded-circle" width= 200>
+			<h5>Atividades a serem propostas</h5>
 		</div>	
 	</section>
+	<section id="Desenvolve_atividade">
+		<div class="container-fluid Desenvolve_atividade text-center margin">
+			<h4>Desenvolve atividade</h4>
+			<img src="imagens/tarefa2.jpg" class="rounded-circle" width= 200>
+			<h5>Conhecimento na area</h5>		
+		</div>	
+	</section>
+	<section id="Conclui_atividade">
+		<div class="container-fluid Conclui_atividade text-center margin">
+			<h4>Conclui atividade</h4>
+			<img src="imagens/tarefa3.jpg" class="rounded-circle" width= 200>
+			<h5>Crescimento na área</h5>
+		</div>	
+	</section>
+	<section id="alunos">
+		<div class="container-fluid alunos text-center margin">
+		<h4>Estudantes</h4>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+				<h5>Alunos</h5>
+					<img src="imagens/aluno.jpg" class="rounded-circle"  width="200">
+				</div>
+				<div class="col-lg-4">
+				<h5>Alunos</h5>
+					<img src="imagens/aluno.jpg" class="rounded-circle" width="200">
+				</div>
+				<div class="col-lg-4">
+				<h5>Alunos</h5>
+					<img src="imagens/aluno.jpg" class="rounded-circle" width="200">
+				</div>
+			</div>		
+		</div>
+	</section>
+   <footer class="text-center">
+   <p>Desenvolvido pelo Alexandro Apº.M.G </p>   
+   </footer>
 	</body>
 	</html>

@@ -10,16 +10,55 @@ header{
 	background-color: rgb(202,158,19);
 }
 footer{
-	color: black;
+ background-color: rgb(200,200,200);
+ color: red;
+ margin-top: 10px;
+ text-shadow:  1px -1px blue;
+ box-shadow: 0 0 0.5em black;
 	
 }
 .Faz_atividade{
- background-color: black;
+ background-color: rgb(10,50,10);
  color: white;
- margin-top: 500px;
+ margin-top: 10px;
+ text-shadow: yellow 0.1em 0.2em 0.3em;
+ box-shadow: 0 0 0.5em black;
  
+}
+.Desenvolve_atividade{
+	background-color:rgb(150,140,0);
+	color: white;
+	margin-top:5px;
+	text-shadow: 1px -1px blue;
+	box-shadow: 0 0 0.5em black;
+	
+}
+.Conclui_atividade{
+	background-color:rgb(10,10,50);
+	color:white;
+	margin-top: 5px;
+	text-shadow: 0 0 0.5em green;
+	box-shadow: 0 0 0.5em black;
+	
 }
 .margin{
 	padding-top: 5px;
 	padding-bottom: 20px;
+}
+.alunos{
+	box-shadow: 0 0 0.5em black;
+	background-color:black;
+	color: red;
+	text-shadow: blue 0.1em 0.1em 0.1em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+.Pessoal{
+	box-shadow: 0 0 0.5em black;
+	background-color:rgb(10,10,50);
+	color: red;
+	text-shadow: blue 0.1em 0.1em 0.1em;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
