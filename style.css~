@@ -1,0 +1,25 @@
+header{
+	height: 15px;
+	font-style: inherit;
+	color: rgb(125,125,0);
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+.navbar{
+	background-color: rgb(202,158,19);
+}
+footer{
+	color: black;
+	
+}
+.Faz_atividade{
+ background-color: black;
+ color: white;
+ margin-top: 500px;
+ 
+}
+.margin{
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
